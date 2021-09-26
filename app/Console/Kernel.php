@@ -24,7 +24,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('unsplash:random')->hourly();
+        $schedule->command('unsplash:random')->daily();
     }
 
     /**

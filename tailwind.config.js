@@ -3,7 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-        sans: ['Montserrat', 'sans-serif']
+        sans: ['Montserrat', 'sans-serif'],
+        mono: ['Source Code Pro', 'ui-monospace']
     },
 
     extend: {},

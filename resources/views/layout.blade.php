@@ -65,10 +65,8 @@
             </div>
 
             @if (\Arr::exists(\Route::current()->parameters, 'page'))
-            <div class="bg-white mx-auto w-1/2 h-3/4 px-4 py-4 bg-opacity-90 mt-16 rounded-lg scrollbar-thin scrollbar-thumb-yellow-600 scrollbar-track-gray-200 scrollbar-track-rounded-lg scrollbar-thumb-rounded-lg overflow-y-scroll shadow-xl">
-                <div class="px-10">
-                    @yield('content')
-                </div>
+            <div class="bg-white mx-auto w-1/2 h-3/4 px-10 py-8 bg-opacity-90 mt-16 rounded-lg scrollbar-thin scrollbar-thumb-yellow-600 scrollbar-track-gray-200 scrollbar-track-rounded-lg scrollbar-thumb-rounded-lg overflow-y-scroll shadow-xl">
+                @yield('content')
             </div>
             @endif
 

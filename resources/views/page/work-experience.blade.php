@@ -1,7 +1,7 @@
 @extends('layout', ['image' => $unsplashImage])
 
 @section('content')
-    <h1 class="text-5xl text-yellow-600 filter drop-shadow-md mt-8">Work Experience</h1>
+    <h1 class="text-5xl text-yellow-600 filter drop-shadow-md">Work Experience</h1>
 
     <div class="mt-10">
         <div class="mb-4">

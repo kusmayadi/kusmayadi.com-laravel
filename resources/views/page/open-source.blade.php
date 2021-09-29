@@ -1,7 +1,7 @@
 @extends('layout', ['image' => $unsplashImage, 'title' => 'Open Source'])
 
 @section('content')
-    <h1 class="text-5xl text-yellow-600 filter drop-shadow-md mt-8">Open Source</h1>
+    <h1 class="text-5xl text-yellow-600 filter drop-shadow-md">Open Source</h1>
 
     <div class="mt-10">
         <div class="mb-6 leading-relaxed">

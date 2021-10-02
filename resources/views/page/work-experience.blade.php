@@ -9,7 +9,7 @@
             <h2 class="text-base lg:text-lg">VE Capital Asia</h2>
             <h3 class="text-sm lg:text-base"><i class="fas fa-globe text-gray-400"></i> <a href="https://vecapital.asia/">vecapital.asia</a></h3>
             <div class="text-xs lg:text-base">Jul 2020 – Present</div>
-            <div class="text-xs lg:text-base">Remote - Singapore</div>
+            <div class="text-xs lg:text-base">Remote (Singapore based company)</div>
         </div>
 
         <div class="mb-4 leading-relaxed">
@@ -97,7 +97,7 @@
             <h2 class="text-base lg:text-lg">Harver Group, LLC</h2>
             <h3 class="text-sm lg:text-base"><i class="fas fa-globe text-gray-400"></i> <a href="https://saywire.com">saywire.com</a></h3>
             <div class="text-xs lg:text-base">Aug 2006 – May 2009</div>
-            <div class="text-xs lg:text-base">Remote (with US based company)</div>
+            <div class="text-xs lg:text-base">Remote (US based company)</div>
         </div>
 
         <div class="mb-4 leading-relaxed">

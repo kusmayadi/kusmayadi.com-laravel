@@ -50,6 +50,12 @@ return [
     ],
 
     [
+        'name' => 'Alpine.js',
+        'image' => 'alpinejs.svg',
+        'url' => 'https://alpinejs.dev/'
+    ],
+
+    [
         'name' => 'jQuery',
         'image' => 'jquery.svg',
         'url' => 'https://jquery.com/'
@@ -77,6 +83,12 @@ return [
         'name' => 'redis',
         'image' => 'redis.svg',
         'url' => 'https://redis.io/'
+    ],
+
+    [
+        'name' => 'MongoDB',
+        'image' => 'mongodb.svg',
+        'url' => 'https://www.mongodb.com/'
     ],
 
     [

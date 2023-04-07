@@ -8,6 +8,13 @@
             <p class="text-xs italic pb-6 text-xs text-gray-900 lg:font-light">* Please note that some links might be dead or have changed.</p>
 
             <div class="mb-6 leading-relaxed">
+                <h2 class="text-lg lg:text-2xl">Workflow system for kintecktong.com.sg — 2021 - 2023</h1>
+                <h3 class="text-sm lg:text-base lg:font-medium"><i class="fas fa-globe text-gray-400"></i> <a class="italic">[Private]</a></h3>
+                <p class="text-xs lg:text-base">Building Workflow System for kintecktong.com.sg</p>
+                <p class="text-xs lg:text-base font-mono">Tech Stack: <span class="font-medium">PHP 8, Laravel 8, MySQL, Vue.js, TailwindCSS, Twilio, Sentry</span></p>
+            </div>
+
+            <div class="mb-6 leading-relaxed">
                 <h2 class="text-lg lg:text-2xl">ERP for able.com.sg — 2020 - 2021</h1>
                 <h3 class="text-sm lg:text-base lg:font-medium"><i class="fas fa-globe text-gray-400"></i> <a class="italic">[Private]</a></h3>
                 <p class="text-xs lg:text-base">Building ERP system for able.com.sg</p>

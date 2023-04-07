@@ -8,7 +8,7 @@
             <h1 class="text-lg lg:text-2xl">Senior Developer</h1>
             <h2 class="text-base lg:text-lg">VE Capital Asia</h2>
             <h3 class="text-sm lg:text-base"><i class="fas fa-globe text-gray-400"></i> <a href="https://vecapital.asia/">vecapital.asia</a></h3>
-            <div class="text-xs lg:text-base">Jul 2020 – Present</div>
+            <div class="text-xs lg:text-base">Jul 2020 – March 2023</div>
             <div class="text-xs lg:text-base">Remote (Singapore based company)</div>
         </div>
 

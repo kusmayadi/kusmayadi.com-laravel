@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/{page?}', PageController::class)->name('page');
+Route::get('/{page?}', PageController::class)->where('page', '^((?!css|js|images|fonts).)*$')->name('page');

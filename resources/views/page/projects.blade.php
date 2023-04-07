@@ -10,8 +10,15 @@
             <div class="mb-6 leading-relaxed">
                 <h2 class="text-lg lg:text-2xl">Workflow system for kintecktong.com.sg — 2021 - 2023</h1>
                 <h3 class="text-sm lg:text-base lg:font-medium"><i class="fas fa-globe text-gray-400"></i> <a class="italic">[Private]</a></h3>
-                <p class="text-xs lg:text-base">Building Workflow System for kintecktong.com.sg</p>
+                <p class="text-xs lg:text-base">Building workflow system for kintecktong.com.sg</p>
                 <p class="text-xs lg:text-base font-mono">Tech Stack: <span class="font-medium">PHP 8, Laravel 8, MySQL, Vue.js, TailwindCSS, Twilio, Sentry</span></p>
+            </div>
+
+            <div class="mb-6 leading-relaxed">
+                <h2 class="text-lg lg:text-2xl">Songgobhumi Website — 2021 - 2023</h1>
+                <h3 class="text-sm lg:text-base lg:font-medium"><i class="fas fa-globe text-gray-400"></i> <a href="http://songgobhumi.com">songgobhumi.com</a></h3>
+                <p class="text-xs lg:text-base">Songgobhumi Website</p>
+                <p class="text-xs lg:text-base font-mono">Tech Stack: <span class="font-medium">PHP 8, Laravel 8, MySQL, Vue.js, TailwindCSS</span></p>
             </div>
 
             <div class="mb-6 leading-relaxed">

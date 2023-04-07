@@ -79,14 +79,14 @@
                         </li>
 
                         <li class="ml-5">
-                            <a href="{{ route('page', ['page' => 'open-source']) }}" class="{{ (\Arr::exists(\Route::current()->parameters, 'page') AND \Route::current()->parameters['page'] === 'open-source') ? 'active' : '' }}">
-                                <i class="fas fa-code mr-1"></i>Open Source
+                            <a href="{{ route('page', ['page' => 'tech-stack']) }}" class="{{ (\Arr::exists(\Route::current()->parameters, 'page') AND \Route::current()->parameters['page'] === 'tech-stack') ? 'active' : '' }}">
+                                <i class="fas fa-layer-group mr-1"></i>Tech Stack
                             </a>
                         </li>
 
                         <li class="ml-5">
-                            <a href="{{ route('page', ['page' => 'tech-stack']) }}" class="{{ (\Arr::exists(\Route::current()->parameters, 'page') AND \Route::current()->parameters['page'] === 'tech-stack') ? 'active' : '' }}">
-                                <i class="fas fa-layer-group mr-1"></i>Tech Stack
+                            <a href="{{ route('page', ['page' => 'open-source']) }}" class="{{ (\Arr::exists(\Route::current()->parameters, 'page') AND \Route::current()->parameters['page'] === 'open-source') ? 'active' : '' }}">
+                                <i class="fas fa-code mr-1"></i>Open Source
                             </a>
                         </li>
 

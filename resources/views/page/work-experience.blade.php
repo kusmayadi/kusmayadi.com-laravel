@@ -1,4 +1,4 @@
-@extends('layout', ['image' => $unsplashImage])
+@extends('layout', ['image' => $unsplashImage, 'title' => 'Work Experience'])
 
 @section('content')
     <h1 class="text-2xl lg:text-5xl text-yellow-600 filter drop-shadow-md">Work Experience</h1>

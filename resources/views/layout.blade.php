@@ -25,9 +25,9 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body>
-        <div x-data="{ open: false }" class="h-screen w-screen bg-cover bg-no-repeat bg-center" style="background-image: url({{ asset('storage/' . $image->name) }})">
+        <div x-data="{ open: false }" class="h-screen w-screen bg-cover bg-no-repeat bg-center filter blur-2xl px-4" style="background-image: url({{ asset('storage/' . $image->name) }})">
 
-            <div class="py-2 px-4 flex justify-between items-center">
+            <div class="py-2 flex justify-between items-center">
                 <div @click.away="open = false" class="flex items-center bg-opacity-70 text-yellow-600 bg-black px-3 lg:px-6 py-2 rounded-md font-bold text-xs lg:text-xl">
                     <div class="lg:hidden mr-2">
                         <i @click="open = !open" class="fas fa-bars"></i>
@@ -65,7 +65,7 @@
                         </ul>
                     </div>
 
-                    <a href="/">Kusmayadi</a>
+                    <div @click="open = !open">Kusmayadi</div>
                 </div>
 
                 <div>
@@ -105,9 +105,9 @@
             </div>
 
             @if (\Arr::exists(\Route::current()->parameters, 'page'))
-            <div class="bg-white mx-auto w-3/4 lg:w-1/2 h-3/4 px-10 py-8 bg-opacity-90 mt-4 lg:mt-16 rounded-lg scrollbar-thin scrollbar-thumb-yellow-600 scrollbar-track-gray-200 scrollbar-track-rounded-lg scrollbar-thumb-rounded-lg overflow-y-scroll shadow-2xl">
-                @yield('content')
-            </div>
+                <div class="bg-white mx-auto w-full h-3/4 px-10 py-8 bg-opacity-90 mt-4 lg:mt-16 rounded-lg scrollbar-thin scrollbar-thumb-yellow-600 scrollbar-track-gray-200 scrollbar-track-rounded-lg scrollbar-thumb-rounded-lg overflow-y-scroll shadow-2xl">
+                    @yield('content')
+                </div>
             @endif
 
             <div class="absolute bottom-2 text-gray-400 text-xs px-2">

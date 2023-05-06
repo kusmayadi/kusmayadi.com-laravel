@@ -17,12 +17,10 @@ class PageController extends Controller
     public function __invoke(Request $request, $page = null)
     {
         try {
-            $unsplashImage = DB::table('unsplash_assets')->inRandomOrder()->first();
-
             if ($page === null)
                 $page = 'home';
 
-            return view('page.' . $page, compact('unsplashImage'));
+            return view('page.' . $page);
         } catch (InvalidArgumentException $e) {
             abort(404);
         }

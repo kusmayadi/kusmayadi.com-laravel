@@ -1,32 +1,41 @@
-@extends('layout', ['image' => $unsplashImage, 'title' => 'Open Source'])
+@extends('layout', ['title' => 'Open Source'])
 
 @section('content')
-    <h1 class="text-2xl lg:text-5xl text-yellow-600 filter drop-shadow-md">Open Source</h1>
+    <section class="dark:text-gray-100">
+        <div class="container max-w-5xl px-4 py-12 mx-auto">
+            <div class="grid gap-4 mx-4 sm:grid-cols-12">
+                <div class="col-span-12 sm:col-span-3">
+                    <div class="text-center sm:text-left mt-3 mb-14 before:block before:w-40 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-orange-500">
+                        <h3 class="text-3xl font-semibold">Open Source</h3>
+                    </div>
+                </div>
+                <div class="relative col-span-12 px-4 space-y-6 sm:col-span-9">
+                    <div class="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-gray-700">
+                        <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-orange-500">
+                            <h2 class="text-2xl font-semibold tracking-wide">Artisan User</h2>
+                            <div class="text-gray-400 text-xs lg:text-sm"><i class="fas fa-globe"></i> <a target="packagist" href="https://packagist.org/packages/kusmayadi/artisan-user">Packagist</a></div>
+                            <div class="text-gray-400 text-xs lg:text-sm"><i class="fab fa-github"></i> <a target="github" href="https://github.com/kusmayadi/artisan-user-management">Source Code</a></div>
+                            <div class="mt-2 text-xs tracking-wide uppercase dark:text-gray-400">Tech Stack: PHP, Laravel</div>
+                            <p class="mt-3">Laravel package for managing users through artisan console.</p>
+                        </div>
 
-    <div class="mt-6 lg:mt-10">
-        <div class="mb-6 leading-relaxed">
-            <h2 class="text-lg lg:text-2xl">Artisan User</h2>
-            <p class="text-xs lg:text-base">Laravel package for managing users through artisan console.</p>
-            <p class="text-xs lg:text-base"><span>Language:</span> PHP</p>
-            <p class="text-xs lg:text-base"><span>Framework:</span> Laravel</p>
-            <p class="text-gray-400 text-xs lg:text-sm"><i class="fas fa-globe"></i> <a target="packagist" href="https://packagist.org/packages/kusmayadi/artisan-user">Packagist</a></p>
-            <p class="text-gray-400 text-xs lg:text-sm"><i class="fab fa-github"></i> <a target="github" href="https://github.com/kusmayadi/artisan-user-management">Source Code</a></p>
-        </div>
+                        <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-orange-500">
+                            <h2 class="text-2xl font-semibold tracking-wide">brankas</h2>
+                            <div class="text-gray-400 text-xs lg:text-sm"><i class="fab fa-github"></i> <a target="github" href="https://github.com/kusmayadi/brankas">Source Code</a></div>
+                            <div class="mt-2 text-xs tracking-wide uppercase dark:text-gray-400">Tech Stack: PHP, Laravel</div>
+                            <p class="mt-3">Web based password keeper.</p>
+                        </div>
 
-        <div class="mb-6 leading-relaxed">
-            <h2 class="text-lg lg:text-2xl">brankas</h2>
-            <p class="text-xs lg:text-base">Web based password keeper.</p>
-            <p class="text-xs lg:text-base"><span>Language:</span> PHP</p>
-            <p class="text-xs lg:text-base"><span>Framework:</span> Laravel 6</p>
-            <p class="text-gray-400 text-xs lg:text-sm"><i class="fab fa-github"></i> <a target="github" href="https://github.com/kusmayadi/brankas">Source Code</a></p>
+                        <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-orange-500">
+                            <h2 class="text-2xl font-semibold tracking-wide">nl2p</h2>
+                            <div class="text-gray-400 text-xs lg:text-sm"><i class="fas fa-globe"></i> <a target="packagist" href="https://packagist.org/packages/kusmayadi/nl2p">Packagist</a></div>
+                            <div class="text-gray-400 text-xs lg:text-sm"><i class="fab fa-github"></i> <a target="github" href="https://github.com/kusmayadi/nl2p">Source Code</a></div>
+                            <div class="mt-2 text-xs tracking-wide uppercase dark:text-gray-400">Tech Stack: PHP</div>
+                            <p class="mt-3">A simple function to convert line breaks into &lt;p&gt;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="mb-6 leading-relaxed">
-            <h2 class="text-lg lg:text-2xl">nl2p</h2>
-            <p class="text-xs lg:text-base">A simple function to convert line breaks into &lt;p&gt;</p>
-            <p class="text-xs lg:text-base"><span>Language:</span> PHP</p>
-            <p class="text-gray-400 text-xs lg:text-sm"><i class="fas fa-globe"></i> <a target="packagist" href="https://packagist.org/packages/kusmayadi/nl2p">Packagist</a></p>
-            <p class="text-gray-400 text-xs lg:text-sm"><i class="fab fa-github"></i> <a target="github" href="https://github.com/kusmayadi/nl2p">Source Code</a></p>
-        </div>
-    </div>
+    </section>
 @endsection
